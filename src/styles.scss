@@ -34,6 +34,13 @@ $white: #ffffff;
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 body {
   font-family: "Montserrat", Sans-serif;
