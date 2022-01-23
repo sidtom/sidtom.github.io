@@ -1,0 +1,51 @@
+.text-box {
+  position: absolute;
+  text-align: left;
+  width: 38%;
+  margin: 6%;
+}
+.text-box:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.image-bg {
+  background: url("../../../../assets/images/Rectangle253.png");
+  height: calc(0.4 * 100rem);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 1140px) {
+  .text-box {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 1016px) {
+  .text-box {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 947px) {
+  .text-box {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .text-box {
+    width: 80%;
+    text-align: center;
+  }
+
+  .image-bg {
+    justify-content: center;
+  }
+}

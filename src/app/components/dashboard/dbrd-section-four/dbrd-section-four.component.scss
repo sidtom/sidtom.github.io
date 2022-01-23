@@ -1,0 +1,84 @@
+.margin10 {
+  margin: 0 10%;
+}
+.containerBox {
+  position: relative;
+  width: 220px;
+  padding: 0px;
+}
+.text-box {
+  position: absolute;
+  text-align: left;
+  color: yellow;
+  bottom: 10px;
+  z-index: 13;
+  left: 15%;
+  right: 15%;
+}
+.text-box:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.overlay-gradient {
+  background: linear-gradient(360deg, #000000 9.09%, rgba(0, 0, 0, 0) 89.77%);
+  z-index: 12;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1135px;
+
+  .image-item {
+    margin: 5px;
+  }
+}
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1120px) {
+  .margin10 {
+    margin: 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+
+    .mobile-image-gallery {
+      display: inline-flex;
+      width: 35rem;
+    }
+
+    .image-item{
+      margin-right: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: block;
+  }
+  .mobile-view {
+    display: none;
+  }
+}

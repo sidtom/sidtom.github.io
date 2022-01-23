@@ -1,0 +1,94 @@
+.containerBox {
+  position: relative;
+}
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5%;
+  max-width: 1410px;
+}
+
+.img-bg {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(31, 31, 31, 0.7695) 0%,
+      rgba(22, 22, 22, 0.95) 100%
+    ),
+    url("../../../../assets/images/Rectangle2662.png");
+  height: calc(0.56 * 100rem);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1101px){
+  .container-fluid {
+    margin: 0px;
+    padding: 0px;
+  }
+  .image-item {
+    width: 165px;
+    margin: 15px;
+  }
+
+  .img-responsive {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .img-bg {
+    height: calc(0.7 * 100rem);
+  }
+
+  .padding-top{
+    padding-top: 7%;
+  }
+
+  .img-gallery{
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 480px){
+  
+  .image-item {
+    width: 165px;
+    margin: 10px;
+  }
+
+}
+
+@media screen and (min-width: 1102px) {
+  .image-item {
+    width: 209px;
+    margin: 15px;
+  }
+
+  .img-bg {
+    height: calc(0.56 * 100rem);
+  }
+
+  .padding-top{
+    padding-top: 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .img-bg {
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(31, 31, 31, 0.7695) 0%,
+        rgba(22, 22, 22, 0.95) 100%
+      ),
+      url("../../../../assets/images/Rectangle123.png");
+    height: calc(0.56 * 100rem);
+  }
+
+}

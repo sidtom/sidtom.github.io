@@ -1,0 +1,64 @@
+.diag-section {
+  position: relative;
+}
+
+.section-1 {
+  min-height: 100px;
+}
+
+.section-2 {
+  background: #333333;
+  min-height: 100px;
+  padding: 3%;
+}
+
+.section-3 {
+  background: linear-gradient(
+      274.9deg,
+      rgba(0, 0, 0, 0.9) 2.53%,
+      rgba(0, 0, 0, 0) 55.13%,
+      rgba(0, 0, 0, 0.9) 98.71%
+    ),
+    #222222;
+  min-height: 100px;
+  padding: 3%;
+}
+
+.section-4 {
+  background: linear-gradient(
+    270deg,
+    #0c0c0c 0%,
+    #333333 47.35%,
+    #131313 97.76%
+  );
+  min-height: 100px;
+  padding: 3%;
+}
+
+.section-5 {
+  min-height: 100px;
+}
+
+.section-6 {
+  min-height: 100px;
+  background: linear-gradient(
+      274.9deg,
+      rgba(0, 0, 0, 0.9) 2.53%,
+      rgba(0, 0, 0, 0) 55.13%,
+      rgba(0, 0, 0, 0.9) 98.71%
+    ),
+    #222222;
+}
+
+
+@media screen and (max-width: 840px), (min-width: 200px) {
+  .section-2, .section-3, .section-4, .section-6{
+    padding: 10% 3%;
+  }
+}
+
+@media screen and (min-width: 841px) {
+  .section-2, .section-3, .section-4, .section-6{
+    padding: 3%;
+  }
+}

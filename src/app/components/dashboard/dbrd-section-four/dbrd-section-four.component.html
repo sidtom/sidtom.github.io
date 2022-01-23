@@ -1,0 +1,48 @@
+<div class="col-xs-12">
+  <div class="jumbotron mb-4 items-centered">
+    <p class="text-center diag-h4">Try before you buy</p>
+    <p class="text-center diag-h2">Browse Our Content</p>
+  </div>
+  <div class="container-fluid" style="padding:0px">
+    <div class="row margin10">
+      <div class="col-md-12 items-centered" style="overflow: auto;">
+        
+
+        <section class="desktop-view">
+          <div class="image-gallery">
+            <div *ngFor="let item of galleryItems" class="image-item">
+              <div class="containerBox">
+                <div class="overlay-gradient"></div>
+                <img
+                  class="img-responsive"
+                  src="{{item.Imgsrc}}"
+                />
+                <div class="text-box">{{item.Imgtxt}}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class=" mobile-view">
+          <div class="mobile-image-gallery">
+            <div *ngFor="let item of galleryItems" class="image-item">
+              <div class="containerBox">
+                <div class="overlay-gradient"></div>
+                <img
+                  class="img-responsive"
+                  src="{{item.Imgsrc}}"
+                />
+                <div class="text-box">{{item.Imgtxt}}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron items-centered mt-4 mb-3">
+    <button class="diag-btn btn btn-primary my-2 my-sm-0">browse content</button>
+  </div>
+</div>

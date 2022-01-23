@@ -1,0 +1,141 @@
+/* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  "primary": #ffe300,
+  "dark": #000000,
+);
+
+$yellow: #ffe300;
+$white: #ffffff;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-Medium.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-Light.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat", Sans-serif;
+  background-color: transparent;
+  background-image: radial-gradient(at center center, #252525 0%, #000000 100%);
+  color: $white;
+  width: fit-content;
+}
+
+main {
+  padding: 0px;
+}
+
+.remove-mp {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.items-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.diag-h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+  color: $yellow;
+}
+
+.diag-h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: $yellow;
+  margin-bottom: 5px;
+}
+
+.diag-h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $white;
+  margin-bottom: 5px;
+}
+
+.diag-h3-yellow {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: $yellow;
+  margin-bottom: 20px;
+}
+
+.diag-h4 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  //text-align: center;
+  color: $white;
+  margin-bottom: 5px;
+}
+
+.diag-body-text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: $white;
+}
+
+.diag-sub-body-text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: $white;
+}
+
+.diag-small-body-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+}
+
+.diag-btn {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lh-17 {
+  line-height: 17px;
+}
+
+// @media screen and (max-width: 1024px) {
+//   .p-5 {
+//     padding: 1rem !important;
+//   }
+// }

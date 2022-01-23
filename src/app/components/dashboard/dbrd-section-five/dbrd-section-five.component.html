@@ -1,0 +1,16 @@
+<div class="col-xs-12 img-bg padding-top">
+  <div class="jumbotron mb-5 items-centered">
+    <p class="text-center diag-h4">Live TV Guide and catch up TV</p>
+    <p class="text-center diag-h2">Enjoy Our Live Channels.</p>
+    <p class="text-center diag-sub-body-text">
+      Enjoy all your favourite channels in one place with DIAGNAL ENLIGHT.
+    </p>
+  </div>
+  <div class="img-gallery mb-5">
+    <div *ngFor="let item of galleryItems" class="image-item">
+      <div class="containerBox">
+        <img class="img-responsive" src="{{ item.Imgsrc }}" />
+      </div>
+    </div>
+  </div>
+</div>
