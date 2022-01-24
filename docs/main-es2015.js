@@ -107,7 +107,7 @@ module.exports = "<div class=\"col-xs-12\">\n  <div class=\"container-fluid\">\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer\">\n  <div class=\"container-fluid remove-mp\">\n    <div class=\"row\">\n      <div class=\"col-6 links\">\n        <a href=\"#\">Contact Us</a>\n        <a href=\"#\"> FAQs </a>\n        <a href=\"#\"> Terms of Use </a>\n        <a href=\"#\"> Privacy </a>\n      </div>\n      <div class=\"col-6 logos\">\n        <a href=\"#\"> <i class=\"custom fa fa-instagram\"></i> </a>\n        <a href=\"#\"><i class=\"custom fa fa-facebook\"></i></a>\n        <a href=\"#\"> App Store </a>\n        <a href=\"#\"> Play Store </a>\n      </div>\n    </div>\n    <p class=\"copyright\">Diagnal © 2019 </p>\n  </div>\n</footer>\n"
+module.exports = "<footer class=\"footer\">\n  <div class=\"container-fluid remove-mp\">\n    <div class=\"row\">\n      <div class=\"col-6 links\">\n        <a href=\"#\">Contact Us</a>\n        <a href=\"#\"> FAQs </a>\n        <a href=\"#\"> Terms of Use </a>\n        <a href=\"#\"> Privacy </a>\n      </div>\n      <div class=\"col-6 logos\">\n        <a href=\"#\"> <i class=\"custom fa fa-instagram\"></i> </a>\n        <a href=\"#\"><i class=\"custom fa fa-facebook\"></i></a>\n        <img style=\"max-width: 290px;\" src=\"../assets/images/stores.png\" />\n      </div>\n    </div>\n    <p class=\"copyright\">Diagnal © 2019 </p>\n  </div>\n</footer>\n"
 
 /***/ }),
 
